@@ -1,0 +1,11 @@
+@import './var';
+
+$yel: blue;
+body{
+  background-color: $yel;
+  display: flex;
+  justify-content: space-around;
+  a{
+    transition: all 0.3s ease-in;
+  }
+}
